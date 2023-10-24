@@ -41,3 +41,19 @@ assertArraysEqual(middle([1, 2, 3, 4, 5]), [3]);
 
 assertArraysEqual(middle([1, 2, 3, 4]), [3]);
 assertArraysEqual(middle([1, 2, 3, 4, 5, 6]), [3, 4]);
+
+/*
+(1) Implement the middle function
+Great job! Your code meets all the requirements. The middle function correctly returns the middle elements of an array, and you've included the eqArrays and assertArraysEqual functions for testing. Your test cases are comprehensive and correctly demonstrate the functionality of your middle function.
+
+One small suggestion for improvement is to adjust the condition in your middle function that checks if the array length is less than 2. According to the requirements, an array should return an empty array if it has less than 3 elements, not 2. So, you should change:
+
+if (length < 2) {
+  return [];
+}
+to:
+
+if (length < 3) {
+  return [];
+}
+/*
