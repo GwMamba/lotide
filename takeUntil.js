@@ -64,3 +64,19 @@ The function will return a "slice of the array with elements taken from the begi
 
 To keep things simple, the callback should only be provided one value: The item in the array.
 */
+
+/*
+(1) Implement the takeUntil function
+Great job! Your takeUntil function correctly implements the requirements. It takes an array and a callback as arguments, iterates through the array, and calls the callback on each element until the callback returns a truthy value. It then returns an array containing only the elements in the array that appear before the one that caused the callback to return truthy.
+
+Your eqArrays and assertArraysEqual functions also seem to be implemented correctly, and you've used them to test your takeUntil function.
+
+One suggestion I have is to use assertArraysEqual to compare your test results with the expected results. This way, you can automatically check if your function is working as expected. For example:
+
+const expected1 = [1, 2, 5, 7, 2];
+assertArraysEqual(results1, expected1); // should pass
+
+const expected2 = ["I've", "been", "to", "Hollywood"];
+assertArraysEqual(results2, expected2); // should pass
+This will give you a clear pass/fail output for each test case, which can be more helpful than manually comparing the output and expected results. Keep up the good work!
+*/
