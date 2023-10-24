@@ -52,3 +52,13 @@ assertEqual(1, 1);
 assertEqual(5, 25);
 assertEqual("Alberta", "Ontario");
 assertEqual("X56", "X56");
+
+
+/*
+However, there's a small part of your code that seems unnecessary:
+
+const allItem = Object.keys(allItems);
+This line of code doesn't seem to be used anywhere in your function. You can safely remove it.
+
+Also, your test cases are well written and cover the expected outcomes. However, the last five test cases are not related to the countOnly function. While it's good to test the assertEqual function, these tests are not necessary for this specific requirement.
+*/
