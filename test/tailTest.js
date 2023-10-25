@@ -1,3 +1,4 @@
+const assert = require('chai').assert;
 const tail = function(arr) {
   return arr.slice(1);
 };
@@ -19,7 +20,7 @@ assertEqual(tail(["Hello", "Lighthouse", "Labs"]), "Hello");
 /*
 (1) Modularize tail
 Keep going! Your submission seems like it might be missing something. Take a look at:
-
+                                          
 In your tail.js file, you've correctly implemented the tail function and exported it using module.exports. However, the assertEqual function should not be required in this file. The purpose of this file is to define and export the tail function, not to test it. You can remove the following line:
 
 const assertEqual = require('./assertEqual');
