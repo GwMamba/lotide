@@ -27,6 +27,9 @@ const map = function(array, callback) {
   return results;
 }
 
+module.exports = map;
+
+
 const words = ["ground", "control", "to", "major", "tom"];
 
 //Now let's cause our first error by calling our nonexistent map function.

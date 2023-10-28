@@ -17,6 +17,9 @@ const findKeyByValue = function(tvshows, show) {
   }
 };
 
+module.exports = findKeyByValue;  
+
+
 const bestTVShowsByGenre = {
   sci_fi: "The Expaanse",
   comedy: "Brooklyn Nine-Nine",

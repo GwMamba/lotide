@@ -24,6 +24,9 @@ const countLetters = function(string) {
 
 console.log(countLetters("hello, My name is Gerald."));
 
+module.exports = countLetters;
+
+
 /*
 However, there are a couple of things you might want to consider improving:
 

@@ -6,7 +6,20 @@ const middle = require('./middle');
 module.exports = {
   head:   head,
   tail:   tail,
-  middle: middle
+  middle: middle,
+  assertArraysEqual: assertArraysEqual,
+  assertEqual: assertEqual,
+  assertObjectsEqual: assertObjectsEqual,
+  countLetters: countLetters,
+  countOnly: countOnly,
+  eqArrays: eqArrays,
+  eqObjects: eqObjects,
+  findKey: findKey,
+  findKeyByValue: findKeyByValue,
+  flatten: flatten,
+  letterPositions: letterPositions,
+  takeUntil: takeUntil,
+  without: without 
 };
 
 // Example 1

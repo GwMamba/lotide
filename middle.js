@@ -32,6 +32,7 @@ const middle = function(array) {
     return [array[middleIndex]];
   }
 };
+module.exports = middle;
 
 assertArraysEqual(middle([1]), []);
 assertArraysEqual(middle([1, 2]), []);
@@ -56,4 +57,4 @@ to:
 if (length < 3) {
   return [];
 }
-/*
+*/

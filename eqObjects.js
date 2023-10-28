@@ -42,6 +42,8 @@ const eqObjects = function(object1, object2) {
   return true;
 };
 
+module.exports = eqObjects;  
+
 
 const multiColorShirtObject = { colors: ["red", "blue"], size: "medium" };
 const anotherMultiColorShirtObject = { size: "medium", colors: ["red", "blue"] };
