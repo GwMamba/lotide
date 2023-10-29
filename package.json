@@ -1,8 +1,8 @@
 {
   "name": "lotide",
   "version": "1.0.0",
-  "description": "A mini clone of the [Lodash](https://lodash.com) library.",
-  "main": "assertArraysEqual.js",
+  "description": "A mini clone of the [Lodash](https://lodash.com) library. It has been worked on and still reamins a WIP.",
+  "main": "index.js",
   "directories": {
     "test": "test"
   },
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/GwMamba/lotide.git"
   },
-  "author": "",
+  "author": "This fork is not owned by GwMamba, but he has added his own changes to the existing Lodash",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/GwMamba/lotide/issues"
