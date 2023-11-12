@@ -1,7 +1,7 @@
 {
   "name": "lotide",
   "version": "1.0.0",
-  "description": "A mini clone of the [Lodash](https://lodash.com) library. It has been worked on and still reamins a WIP.",
+  "description": "A mini clone of the [Lodash](https://lodash.com) library. It has been worked on and still remains a WIP.",
   "main": "index.js",
   "directories": {
     "test": "test"
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/GwMamba/lotide.git"
   },
-  "author": "This fork is not owned by GwMamba, but he has added his own changes to the existing Lodash",
+  "author": "Gerald W Mwangi",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/GwMamba/lotide/issues"
@@ -22,6 +22,5 @@
   "devDependencies": {
     "chai": "^4.3.10",
     "mocha": "^9.2.2"
-  },
-  "dependencies": {}
+  }
 }
